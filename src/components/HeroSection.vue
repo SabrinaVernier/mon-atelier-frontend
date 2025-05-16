@@ -41,6 +41,10 @@ export default {
       </p>
 
       <SymbolBloc />
+
+      <a href="/public/DOCS/ebook-symbolique.pdf" download>
+        📥 Télécharger le livret PDF
+      </a>
     </div>
   </section>
 </template>
