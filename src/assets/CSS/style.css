@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  --sand-color: #f2e4d3;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  /* background-color: #e1ffe9; */
+  background-image: url("../IMGS/img-fond-mer.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  font-family: "Lato", sans-serif;
+  /* place-items: center; */
+  scroll-behavior: smooth;
+
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.container {
+  /* border: 1px solid green; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+main {
+  margin-top: 120px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  padding-bottom: 3rem;
+  color: #2e6e2b; /* Vert foncé pour rappeler la nature */
+  line-height: 1.1;
+  font-family: "Pacifico", serif;
+}
+
+h3 {
+  font-family: "Pacifico", serif;
+  color: #946c00;
+}
+strong {
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.2rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
